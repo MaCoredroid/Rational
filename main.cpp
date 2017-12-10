@@ -4,14 +4,14 @@ using namespace std;
 int main()
 {
     int n,d;
-    Rational r1,r2,r3;
-    cout<<"Please input the first rational(num den):";
-    cin>>n>>d;
-    r1.create(n,d);
 
     cout<<"Please input the first rational(num den):";
     cin>>n>>d;
-    r2.create(n,d);
+    Rational r1(n,d);
+
+    cout<<"Please input the first rational(num den):";
+    cin>>n>>d;
+    Rational r2(n,d),r3;
 
     r3.add(r1,r2);
     r1.display();

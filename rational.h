@@ -11,11 +11,9 @@ private:
     void ReductFraction();
 
 public:
-    void create(int n,int d)
+    Rational(int a=0,int b=1):num(a),den(b)
     {
-        num=n;
-        den=d;
-        ReductFraction();
+        void ReductFraction();
     }
     void add (const Rational &r1,const Rational &r2);
     void multi(const Rational &r1,const Rational &r2);
