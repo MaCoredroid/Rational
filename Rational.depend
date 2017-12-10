@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512870346 source:e:\coredroid\rational\main.cpp
+	<iostream>
+	"rational.h"
+
+1512870045 source:e:\coredroid\rational\rational.cpp
+	"rational.h"
+
+1512870520 e:\coredroid\rational\rational.h
+	<iostream>
+
